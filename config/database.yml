@@ -1,8 +1,11 @@
-development:
+development: &default
   adapter: postgresql
   encoding: unicode
-  database: rcop_development
+  database: postgres
   pool: 5
+  username: postgres
+  password:
+  host: db
 
 test:
   adapter: postgresql
